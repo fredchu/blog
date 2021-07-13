@@ -4,17 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Tags | Fred’s Dev Playground</title>
+<title>Renaming Git Branches | Fred’s Dev Playground</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="Renaming Git Branches" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A F2E, data science beginner, and an amateur photographer shoot in film :P" />
-<meta property="og:description" content="A F2E, data science beginner, and an amateur photographer shoot in film :P" />
-<link rel="canonical" href="https://fredchu.github.io/blog/categories/" />
-<meta property="og:url" content="https://fredchu.github.io/blog/categories/" />
+<meta name="description" content="It’s simple. But it’s easy to forget." />
+<meta property="og:description" content="It’s simple. But it’s easy to forget." />
+<link rel="canonical" href="https://fredchu.github.io/blog/markdown/2021/07/13/renaming-git-branch.html" />
+<meta property="og:url" content="https://fredchu.github.io/blog/markdown/2021/07/13/renaming-git-branch.html" />
 <meta property="og:site_name" content="Fred’s Dev Playground" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-13T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"A F2E, data science beginner, and an amateur photographer shoot in film :P","url":"https://fredchu.github.io/blog/categories/","@type":"WebPage","headline":"Tags","@context":"https://schema.org"}</script>
+{"description":"It’s simple. But it’s easy to forget.","url":"https://fredchu.github.io/blog/markdown/2021/07/13/renaming-git-branch.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://fredchu.github.io/blog/markdown/2021/07/13/renaming-git-branch.html"},"headline":"Renaming Git Branches","dateModified":"2021-07-13T00:00:00-05:00","datePublished":"2021-07-13T00:00:00-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://fredchu.github.io/blog/feed.xml" title="Fred's Dev Playground" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -81,57 +83,53 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Renaming Git Branches</h1><p class="page-description">It's simple. But it's easy to forget.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-07-13T00:00:00-05:00" itemprop="datePublished">
+        Jul 13, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
-<h2>Contents</h2>
-
-  
-  
-  
-
-  <ul>
-  
-    <li><a href="#jupyter">jupyter</a></li>
-  
-    <li><a href="#markdown">markdown</a></li>
-  
-  </ul>
-
-  
-      <h3 id ="jupyter"><i class="fas fa-tags category-tags-icon"></i></i> jupyter</h3>
-      <a name="jupyter"></a>
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/jupyter/2021/07/13/data_reader_workaround.html">How to Use pandas-datareader with User Agent</a>  • Jul 13, 2021</p>
-        </article>
+        <a class="category-tags-link" href="/blog/categories/#markdown">markdown</a>
         
       
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/jupyter/2020/02/20/test.html">Fastpages Notebook Blog Post</a>  • Feb 20, 2020</p>
-        </article>
-        
-      
-  
-      <h3 id ="markdown"><i class="fas fa-tags category-tags-icon"></i></i> markdown</h3>
-      <a name="markdown"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/markdown/2021/07/13/renaming-git-branch.html">Renaming Git Branches</a>  • Jul 13, 2021</p>
-        </article>
-        
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/blog/markdown/2020/01/14/test-markdown-post.html">An Example Markdown Post</a>  • Jan 14, 2020</p>
-        </article>
-        
-      
-  
+      </p>
+    
 
+    </header>
 
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#tldr-version">TL;DR version</a></li>
+<li class="toc-entry toc-h2"><a href="#long-version">Long version</a></li>
+</ul><h2 id="tldr-version">
+<a class="anchor" href="#tldr-version" aria-hidden="true"><span class="octicon octicon-link"></span></a>TL;DR version</h2>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch -m old-branch new-branch
+</code></pre></div></div>
 
-</div>
+<h2 id="long-version">
+<a class="anchor" href="#long-version" aria-hidden="true"><span class="octicon octicon-link"></span></a>Long version</h2>
+
+<p>If you have two branches, <code class="language-plaintext highlighter-rouge">master</code> and <code class="language-plaintext highlighter-rouge">old-branch</code>, and you’re on <code class="language-plaintext highlighter-rouge">master</code> branch. If you wanna replace the name of the branch <code class="language-plaintext highlighter-rouge">old-branch</code> with <code class="language-plaintext highlighter-rouge">new-branch</code>, type this in your terminal:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git branch <span class="nt">-m</span> old-branch new-branch</code></pre></figure>
+
+<p>If you’re on <code class="language-plaintext highlighter-rouge">old-branch</code> branch already, enter this:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git branch <span class="nt">-m</span> new-branch</code></pre></figure>
+
+  </div><a class="u-url" href="/blog/markdown/2021/07/13/renaming-git-branch.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/blog/"></data>
