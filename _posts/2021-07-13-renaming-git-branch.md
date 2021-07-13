@@ -7,9 +7,9 @@ title: Renaming Git Branches
 ---
 ## TL;DR version
 
-```
+{% highlight Bash shell scripts %}
 git branch -m old-branch new-branch
-```
+{% endhighlight %}
 
 ## Long version
 
